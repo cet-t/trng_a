@@ -10,7 +10,8 @@ pastey = { version = "0.2", optional = true }
 serde = { version = "1", features = ["derive"], optional = true }
 
 [dev-dependencies]
-cribler_core = "0.3"
+cribler_testu01 = { path = "../cribler_testu01" }
+cribler_practrand = { path = "../cribler_practrand" }
 
 [features]
 serde = ["dep:serde"]

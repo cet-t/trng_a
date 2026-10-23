@@ -1,0 +1,36 @@
+Progress: 0/25Progress: 1/25Progress: 2/25Progress: 3/25Progress: 4/25Progress: 5/25Progress: 6/25Progress: 7/25Progress: 8/25Progress: 9/25Progress: 10/25Progress: 11/25Progress: 12/25Progress: 13/25Progress: 14/25Progress: 15/25Progress: 16/25Progress: 17/25Progress: 18/25Progress: 19/25Progress: 20/25Progress: 21/25Progress: 22/25Progress: 23/25Progress: 24/25Progress: 25/25
+
+Test results:
+╭────┬────────────────────────────────────┬────────┬───────────╮
+│  # │                test                │ status │ exit_code │
+├────┼────────────────────────────────────┼────────┼───────────┤
+│  0 │ normal tests                       │ PASS   │         0 │
+│  1 │ practrand::biski64_test            │ PASS   │         0 │
+│  2 │ practrand::sfmt::sfmt11213_test    │ PASS   │         0 │
+│  3 │ practrand::sfmt::sfmt1279_test     │ FAIL   │       101 │
+│  4 │ practrand::sfmt::sfmt132049_test   │ PASS   │         0 │
+│  5 │ practrand::sfmt::sfmt19937_test    │ PASS   │         0 │
+│  6 │ practrand::sfmt::sfmt216091_test   │ PASS   │         0 │
+│  7 │ practrand::sfmt::sfmt2281_test     │ FAIL   │       101 │
+│  8 │ practrand::sfmt::sfmt4253_test     │ PASS   │         0 │
+│  9 │ practrand::sfmt::sfmt44497_test    │ PASS   │         0 │
+│ 10 │ practrand::sfmt::sfmt607_test      │ FAIL   │       101 │
+│ 11 │ practrand::sfmt::sfmt86243_test    │ PASS   │         0 │
+│ 12 │ practrand::xorwow_test             │ FAIL   │       101 │
+│ 13 │ small_crush::biski64_test          │ PASS   │         0 │
+│ 14 │ small_crush::sfmt::sfmt11213_test  │ PASS   │         0 │
+│ 15 │ small_crush::sfmt::sfmt1279_test   │ FAIL   │       101 │
+│ 16 │ small_crush::sfmt::sfmt132049_test │ PASS   │         0 │
+│ 17 │ small_crush::sfmt::sfmt19937_test  │ PASS   │         0 │
+│ 18 │ small_crush::sfmt::sfmt216091_test │ PASS   │         0 │
+│ 19 │ small_crush::sfmt::sfmt2281_test   │ PASS   │         0 │
+│ 20 │ small_crush::sfmt::sfmt4253_test   │ PASS   │         0 │
+│ 21 │ small_crush::sfmt::sfmt44497_test  │ PASS   │         0 │
+│ 22 │ small_crush::sfmt::sfmt607_test    │ PASS   │         0 │
+│ 23 │ small_crush::sfmt::sfmt86243_test  │ PASS   │         0 │
+│ 24 │ small_crush::xorwow_test           │ PASS   │         0 │
+├────┼────────────────────────────────────┼────────┼───────────┤
+│  # │                test                │ status │ exit_code │
+╰────┴────────────────────────────────────┴────────┴───────────╯
+
+Passed: 20, Failed: 5
