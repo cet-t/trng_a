@@ -3,6 +3,7 @@ const A: u32 = 0x85EB_CA6B;
 const B: u32 = 0xC2B2_AE35;
 
 #[derive(Debug, Clone, Copy)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
 pub struct SplitMix32 {
     state: u32,
 }

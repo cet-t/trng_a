@@ -3,6 +3,7 @@ const A: u64 = 0xBF58_476D_1CE4_E5B9;
 const B: u64 = 0x94D0_49BB_1331_11EB;
 
 #[derive(Debug, Clone, Copy)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
 pub struct SplitMix64 {
     state: u64,
 }

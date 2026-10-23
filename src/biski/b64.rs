@@ -2,6 +2,7 @@ use crate::splitmix::SplitMix64;
 
 /// https://github.com/danielcota/biski64/blob/main/src/lib.rs
 #[derive(Debug, Clone, Copy)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
 pub struct Biski64 {
     fast_loop: u64,
     mix: u64,

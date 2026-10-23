@@ -7,11 +7,14 @@ edition = "2024"
 trng = "0.1.0"
 bytemuck = { version = "1.25", optional = true }
 pastey = { version = "0.2", optional = true }
+serde = { version = "1", features = ["derive"], optional = true }
 
 [dev-dependencies]
 cribler_core = "0.3"
 
 [features]
-full = ["biski", "sfmt"]
+serde = ["dep:serde"]
+full = ["biski", "sfmt", "xorwow"]
 biski = []
 sfmt = ["dep:bytemuck", "dep:pastey"]
+xorwow = []
