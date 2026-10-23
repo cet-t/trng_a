@@ -1,4 +1,4 @@
-use crate::splitmix::b64::SplitMix64;
+use crate::splitmix::SplitMix64;
 
 /// https://github.com/danielcota/biski64/blob/main/src/lib.rs
 #[derive(Debug, Clone, Copy)]
