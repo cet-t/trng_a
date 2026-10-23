@@ -19,3 +19,8 @@ pub use crate::sfmt::{
 mod xorwow;
 #[cfg(feature = "xorwow")]
 pub use crate::xorwow::Xorwow;
+
+#[cfg(feature = "sfc")]
+mod sfc;
+#[cfg(feature = "sfc")]
+pub use crate::sfc::{Sfc32, Sfc64};

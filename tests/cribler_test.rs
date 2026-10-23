@@ -90,6 +90,14 @@ macro_rules! suite {
 
             #[cfg(feature = "xorwow")]
             rng_test!(xorwow_test, trng_a::Xorwow, u32, 32, $run);
+
+            #[cfg(feature = "sfc")]
+            mod sfc {
+                use super::*;
+
+                rng_test!(sfc32_test, trng_a::Sfc32, u32, 32, $run);
+                rng_test!(sfc64_test, trng_a::Sfc64, u64, 64, $run);
+            }
         }
     };
 }
